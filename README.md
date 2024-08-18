@@ -1,5 +1,5 @@
 # gorm-sqlcipher
-This version of gorm-sqlcipher was created specifically to work with my enpass CLI, which requires `_pragma_cipher_compatibility=3`. This was achieved by using an older version of [go-sqliciper](github.com/mutecomm/go-sqlcipher) that still supports compatibility 3
+This version of gorm-sqlcipher was created specifically to work with my enpass CLI, which requires `_pragma_cipher_compatibility=3`. This was achieved by using an older version of [go-sqliciper](github.com/mutecomm/go-sqlcipher) that still supports compatibility 3. I also had to fix a couple of bugs in `sqlite.go` that were present in every other library I tried.
 
 ## Installation
 
