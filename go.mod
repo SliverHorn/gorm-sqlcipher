@@ -1,6 +1,6 @@
 module github.com/gdanko/gorm-sqlcipher
 
-go 1.22.2
+go 1.18
 
 require (
 	github.com/mutecomm/go-sqlcipher v0.0.0-20190227152316-55dbde17881f
